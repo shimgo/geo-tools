@@ -15,6 +15,9 @@ ruby geocoding.rb
 ```
 curl 'http://router.project-osrm.org/route/v1/driving/13.388860,52.517037;13.397634,52.529407;13.428555,52.523219'
 ```
+レスポンス  
+distance: The distance traveled by the route, in float meters.  
+duration: The estimated travel time, in float number of seconds.
 
 ### googleマップで経路を確認する
 高速道路指定のオプションはないみたい（https://developers.google.com/maps/documentation/urls/guide)
